@@ -26,29 +26,26 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
+  background:
+    linear-gradient(135deg, rgba(99,102,241,0.15), rgba(236,72,153,0.15));
   z-index: -1;
 }
 
-.hero h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); font-weight: 800; color: #ffffff; }
-.hero h2 { font-size: 1.15rem; margin-top: 12px; color: #dddddd; }
-.hero p { max-width: 720px; margin: 26px auto 20px; font-size: 1.05rem; text-align: center; color: #cccccc; }
-
-.hero-content { display: flex; flex-direction: column; align-items: center; }
-.primary-btn {
-  margin-top: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 16px 36px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
-  color: #ffffff;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.35s ease;
+.hero h1 {
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 800;
 }
-.primary-btn:hover { transform: translateY(-3px); }
+.hero h2 {
+  font-size: 1.15rem;
+  margin-top: 12px;
+  color: #4f46e5;
+}
+
+.hero p {
+  max-width: 720px;
+  margin: 26px auto 0;
+  font-size: 1.05rem;
+}
 
 /* BUTTON */
 .primary-btn {
